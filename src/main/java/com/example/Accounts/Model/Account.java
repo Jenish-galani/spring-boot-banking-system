@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Account {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto Generate Id
     private Long id;
 
     private String accountNumber;
